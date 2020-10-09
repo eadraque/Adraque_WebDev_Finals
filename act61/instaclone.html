@@ -112,9 +112,13 @@
                                 </div>
                                  <div class="row post-header px-3 pb-3">
                                     <div class="col-1 float-left text-left"><i class="far fa-heart"></i></i></div>
-                                    <div class="col-10 float-left text-left">Comment...<textarea name="comments" id="comments" style="width:96%;height:90px;padding:2%;font-size:1.2em;background-color:gold;">
+                                    <div class="col-10 float-left text-left">Comment...</div>
+                                                                            <form action="/html/tags/html_form_tag_action.cfm" method="post">
+<textarea name="comments" id="comments" style="width:96%;height:90px;padding:2%;font:1.4em/1.6em cursive;background-color:gold;color:hotpink;">
 Hey... say something!
-</textarea></div>
+</textarea>
+<input type="submit" value="Submit">
+</form>
                                     <div class="col-1 float-right text-right"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
                                 </div>       
                             </div>
